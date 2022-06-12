@@ -1,3 +1,4 @@
+import React from "react";
 export const Footer = () => {
     return (
         <footer className="text-center text-white w-full fixed inset-x-0 bottom-0" style={ { "backgroundColor": "#f1f1f1" } }>
