@@ -3,7 +3,7 @@ import fs from 'fs'
 import matter from 'gray-matter';
 import md from 'markdown-it';
 import Link from 'next/link';
-import { Footer } from '../components/Footer';
+import {Footer} from '../../components/Footer';
 
 export async function getStaticPaths() {
     const files = fs.readdirSync('posts');

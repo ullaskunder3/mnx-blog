@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 import fs from 'fs'
 import matter from 'gray-matter';
 import Link from 'next/link';
-import { Footer } from './components/Footer.js';
+import {Footer} from '../components/Footer';
 
 export async function getStaticProps() {
   const files = fs.readdirSync('posts');
