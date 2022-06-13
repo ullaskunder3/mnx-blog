@@ -8,7 +8,7 @@ The purpose of a blog is to provide content that can help, simplify and guide ot
 
 If you're not comfortable with command line then follow this simple steps.
 
-**You need git for this project**, you can install git it from [here.](https://git-scm.com/)
+**You need git for this project**, you can install git from [here.](https://git-scm.com/)
 
 ## Step 1: fork the repository
 
