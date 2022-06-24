@@ -37,7 +37,7 @@ export default function Home({ posts }) {
           <p className='text-gray-600 text-lg mb-4 font-semibold'>Open source is a thankless job. We do it anyway.👋</p>
         </div>
         <hr className='border' />
-        <div>
+        <div className="max-w-max mx-auto mb-40">
           { posts?.map((post) => {
             return (
               <Link key={ `${post.slug}` } href={ `/blog/${post.slug}` }>
@@ -53,7 +53,6 @@ export default function Home({ posts }) {
           }) }
         </div>
       </main>
-      {/* absolute */}
       <Footer />
     </div>
   )

@@ -2,7 +2,7 @@ import React from "react";
 export const Footer = () => {
     return (
         <footer className="text-center text-white w-full fixed inset-x-0 bottom-0" style={ { "backgroundColor": "#f1f1f1" } }>
-            <div className="container pt-9 my-0 mx-auto">
+            <div className="container pt-2 my-0 mx-auto">
                 <div className="flex justify-center mb-2">
                     <a href="https://twitter.com/ullaskunder3" className="mr-9 text-gray-800">
                         <svg

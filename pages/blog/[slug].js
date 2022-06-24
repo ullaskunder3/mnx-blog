@@ -34,7 +34,7 @@ function BlogPage({ frontMatter, content }) {
             <Link href="/" className=''>
                 <a className='bg-transparent hover:bg-green-500 text-black-700 font-semibold hover:text-white py-2 m-5 px-10 border border-500 hover:border-transparent'>&#60; Back</a>
             </Link>
-            <div className="md:flex">
+            <div className="md:flex mb-10">
                 <div className="p-8">
                     <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{ frontMatter.title }</div>
                     <hr className='mb-5' />
