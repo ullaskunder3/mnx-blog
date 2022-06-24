@@ -4,7 +4,7 @@ export const Footer = () => {
         <footer className="text-center text-white w-full fixed inset-x-0 bottom-0" style={ { "backgroundColor": "#f1f1f1" } }>
             <div className="container pt-2 my-0 mx-auto">
                 <div className="flex justify-center mb-2">
-                    <a href="https://twitter.com/ullaskunder3" className="mr-9 text-gray-800">
+                    <a href="https://twitter.com/ullaskunder3" aria-label="twitterlink" className="mr-9 text-gray-800">
                         <svg
                             aria-hidden="true"
                             focusable="false"
@@ -21,7 +21,7 @@ export const Footer = () => {
                             ></path>
                         </svg>
                     </a>
-                    <a href="mailto:someone@example.com?subject=Hello%20Ullas," className="mr-9 text-gray-800">
+                    <a href="mailto:someone@example.com?subject=Hello%20Ullas," aria-label="gmail" className="mr-9 text-gray-800">
                         <svg
                             aria-hidden="true"
                             focusable="false"
@@ -38,7 +38,7 @@ export const Footer = () => {
                             ></path>
                         </svg>
                     </a>
-                    <a href="http://instagram.com/_u/a.swartzs/" className="mr-9 text-gray-800">
+                    <a href="http://instagram.com/_u/a.swartzs/" aria-label="instagram" className="mr-9 text-gray-800">
                         <svg
                             aria-hidden="true"
                             focusable="false"
@@ -55,7 +55,7 @@ export const Footer = () => {
                             ></path>
                         </svg>
                     </a>
-                    <a href="https://www.linkedin.com/in/ullas-i/" className="mr-9 text-gray-800">
+                    <a href="https://www.linkedin.com/in/ullas-i/" aria-label="linkedin" className="mr-9 text-gray-800">
                         <svg
                             aria-hidden="true"
                             focusable="false"
@@ -72,7 +72,7 @@ export const Footer = () => {
                             ></path>
                         </svg>
                     </a>
-                    <a href="https://github.com/ullaskunder3" className="text-gray-800">
+                    <a href="https://github.com/ullaskunder3" aria-label="github" className="text-gray-800">
                         <svg
                             aria-hidden="true"
                             focusable="false"
