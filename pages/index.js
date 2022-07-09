@@ -33,6 +33,9 @@ export default function Home({ posts }) {
         <meta property="og:description" content="ReadMe Solutions and guide for tech problem" />
         <meta property="og:title" content="ReadMe files with guide to your problem" />
         <meta property="og:image" content="https://www.mnxblog.live/mnxblog.png" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@mnxblog" />
         <meta property="twitter:description" content="ReadMe Solutions and guide for tech problem" />
         <meta property="twitter:title" content="ReadMe files with guide to your problem" />
         <meta property="twitter:creator" content="@ullaskunder3" />
