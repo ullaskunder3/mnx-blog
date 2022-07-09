@@ -4,6 +4,10 @@
     rgb(7 7 7 / 8%) -3px -20px 20px 8px, rgb(0 0 0 / 23%) 3px -20px 12px 7px, rgb(0 0 0 / 7%) 6px -12px 4px, rgb(0 0 0 / 7%) 0px -9px 8px, rgb(0 0 0 / 7%) 1px -6px 16px 14px;
 
     font-size: .75rem;
+
+    left: 0;
+    right: 0;
+    position: absolute;
 }
 .footer *{
     color: #adbac0;
