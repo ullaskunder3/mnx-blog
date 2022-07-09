@@ -2,7 +2,8 @@ import styles from "../styles/Footer.module.css";
 import React from "react";
 export const Footer = () => {
     return (
-        <footer className={`${styles.footer} text-center text-white w-full fixed inset-x-0 bottom-0`}>
+        // <footer className={`${styles.footer} text-center text-white w-full fixed inset-x-0 bottom-0`}>
+        <footer className={`${styles.footer} text-center`}>
             <div className="container pt-2 my-0 mx-auto">
                 <div className="flex justify-center mb-2">
                     <a href="https://twitter.com/ullaskunder3" aria-label="twitterlink" className="mr-9 text-gray-800">

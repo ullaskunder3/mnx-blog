@@ -53,7 +53,7 @@ export default function Home({ posts }) {
           <p className='mb-4'>ReadMe Solutions.</p>
         </div>
         <hr className='border' />
-        <div className="max-w-max mx-auto mb-40">
+        <div className="max-w-max mx-auto mb-10 mx-3">
           { posts?.map((post) => {
             return (
               <Link key={ `${post.slug}` } href={ `/blog/${post.slug}` }>
