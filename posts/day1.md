@@ -13,7 +13,7 @@ date: 'Apr 4, 2021'
 git clone https://github.com/ullaskunder3/graphics.h-project-template.git
 ```
 
-Detail setup can be found on my other repo [solution-to-graphics.h](https://github.com/ullaskunder3/Solution-to-graphics.h)
+Detail setup can be found on my other repo [solution-to-graphics.h](https://www.mnxblog.live/blog/day2)
 
 ## My directory look like
 

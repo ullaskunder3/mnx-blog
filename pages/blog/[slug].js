@@ -29,16 +29,15 @@ export async function getStaticProps({ params: { slug } }) {
 }
 function BlogPage({ frontMatter, content }) {
     return (
-        //  overflow-hidden
-        <div className="max-w-md bg-white rounded-xl md:max-w-2xl mt-5 my-0 mx-auto">
+        <div className="bg-white rounded-xl md:max-w-5xl mt-5 my-0 mx-auto">
             <Link href="/" className=''>
-                <a className='bg-transparent hover:bg-green-500 text-black-700 font-semibold hover:text-white py-2 m-5 px-10 border border-500 hover:border-transparent'>&#60; Back</a>
+                <a className='bg-transparent hover:bg-green-500 text-black-700 font-semibold hover:text-white py-2 m-5 px-10 border border-500 hover:border-transparent'>Back</a>
             </Link>
             <div className="md:flex mb-10">
                 <div className="p-8">
                     <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{ frontMatter.title }</div>
                     <hr className='mb-5' />
-                    <article className="prose lg:prose-xl" dangerouslySetInnerHTML={ { __html: md().render(content) } } />
+                    <article className="prose lg:prose-xl max-w-5xl" dangerouslySetInnerHTML={ { __html: md().render(content) } } />
                 </div>
             </div>
             <Footer />
