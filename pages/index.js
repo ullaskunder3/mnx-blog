@@ -28,6 +28,7 @@ export default function Home({ posts }) {
     <div className={ styles.container }>
       <Head>
         <title>MnxBlog | ReadMe Solutions</title>
+        <meta charset="utf-8" />
         <meta name="description" content="README.md Solutions | Feel free to fork it on github and make contributions, A reminder that if you're ever in need a geek helper...👋" key="desc"/>
         <meta property="og:url" content="https://www.mnxblog.live" />
         <meta property="og:description" content="README.md Solutions | Feel free to fork it on github and make contributions, A reminder that if you're ever in need a geek helper...👋" />
@@ -47,7 +48,7 @@ export default function Home({ posts }) {
       </Head>
       <main className='w-full font-sans leading-normal tracking-normal my-0 mx-auto'>
         <div className='text-center select-none'>
-          <p className='text-4xl lg:text-5xl mt-5 mb-2 font-bold cursor-pointer text-teal-800'>mnxBlog;</p>
+          <p className='inline-block text-4xl lg:text-5xl mt-5 mb-2 font-bold cursor-pointer text-teal-800'>mnxBlog;</p>
           <p className='text-gray-600 text-lg font-semibold'>Open source is a thankless job. We do it anyway. 🙂</p>
           <p className='mb-4'>ReadMe Solutions.</p>
         </div>

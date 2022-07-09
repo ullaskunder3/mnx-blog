@@ -1,7 +1,8 @@
+import styles from "../styles/Footer.module.css";
 import React from "react";
 export const Footer = () => {
     return (
-        <footer className="text-center text-white w-full fixed inset-x-0 bottom-0" style={ { "backgroundColor": "#f1f1f1" } }>
+        <footer className={`${styles.footer} text-center text-white w-full fixed inset-x-0 bottom-0`}>
             <div className="container pt-2 my-0 mx-auto">
                 <div className="flex justify-center mb-2">
                     <a href="https://twitter.com/ullaskunder3" aria-label="twitterlink" className="mr-9 text-gray-800">
@@ -93,8 +94,8 @@ export const Footer = () => {
             </div>
 
             <div className="text-center text-gray-700 p-2" style={ { "backgroundColor": "rgba(0, 0, 0, 0.2)" } }>
-                © 2022 mnxBlog developed by
-                <a className="text-gray-800 font-semibold" href="https://github.com/ullaskunder3"> ullaskunder</a>
+                © 2022 mnxBlog Open-Source developed by
+                <a className="text-gray-800 font-semibold" href="https://ullaskunder.tech/"> ullaskunder.tech </a>
             </div>
         </footer>
     )
