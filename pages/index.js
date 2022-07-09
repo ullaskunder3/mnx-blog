@@ -29,9 +29,14 @@ export default function Home({ posts }) {
       <Head>
         <title>MnxBlog | ReadMe Solutions</title>
         <meta name="description" content="ReadMe Solutions and guide for tech problem" key="desc"/>
-        <meta name="og:description" content="ReadMe Solutions and guide for tech problem" />
-        <meta name="og:title" content="ReadMe files with guide to your problem" />
-        <meta name="og:image" content="https://www.mnxblog.live/mnxblog.png" />
+        <meta property="og:url" content="https://www.mnxblog.live" />
+        <meta property="og:description" content="ReadMe Solutions and guide for tech problem" />
+        <meta property="og:title" content="ReadMe files with guide to your problem" />
+        <meta property="og:image" content="https://www.mnxblog.live/mnxblog.png" />
+        <meta property="twitter:description" content="ReadMe Solutions and guide for tech problem" />
+        <meta property="twitter:title" content="ReadMe files with guide to your problem" />
+        <meta property="twitter:creator" content="@ullaskunder3" />
+        <meta property="twitter:image" content="https://www.mnxblog.live/mnxblog.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
         <meta name="keywords" content="ReadMe.md, HTML, CSS, NextJS, TailWindCSS, Nodejs" />
         <meta name="author" content="Ullas Kunder" />
