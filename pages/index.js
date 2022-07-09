@@ -36,7 +36,7 @@ export default function Home({ posts }) {
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@mnxblog" />
-        <meta name="twitter:description" content="ReadMe Solutions and guide for tech problem" />
+        <meta name="twitter:description" content="README.md Solutions | Feel free to fork it on github and make contributions, A reminder that if you're ever in need a geek helper...👋" />
         <meta name="twitter:title" content="ReadMe files with guide to your problem" />
         <meta name="twitter:creator" content="@ullaskunder3" />
         <meta name="twitter:image" content="https://www.mnxblog.live/mnxblog.png" />
