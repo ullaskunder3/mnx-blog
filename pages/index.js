@@ -28,9 +28,9 @@ export default function Home({ posts }) {
     <div className={ styles.container }>
       <Head>
         <title>MnxBlog | ReadMe Solutions</title>
-        <meta name="description" content="ReadMe Solutions and guide for tech problem" key="desc"/>
+        <meta name="description" content="README.md Solutions | Feel free to fork it on github and make contributions, A reminder that if you're ever in need a geek helper...👋" key="desc"/>
         <meta property="og:url" content="https://www.mnxblog.live" />
-        <meta property="og:description" content="ReadMe Solutions and guide for tech problem" />
+        <meta property="og:description" content="README.md Solutions | Feel free to fork it on github and make contributions, A reminder that if you're ever in need a geek helper...👋" />
         <meta property="og:title" content="ReadMe files with guide to your problem" />
         <meta property="og:image" content="https://www.mnxblog.live/mnxblog.png" />
         <meta property="og:type" content="website" />
