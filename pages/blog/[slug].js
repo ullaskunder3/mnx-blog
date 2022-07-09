@@ -33,7 +33,7 @@ function BlogPage({ frontMatter, content }) {
         <div className="bg-white rounded-xl md:max-w-5xl mt-5 my-0 mx-auto">
             <Head>
                 <title>MnxBlog | ReadMe Solutions</title>
-                <meta charset="utf-8" />
+                <meta charSet="utf-8" />
                 <meta name="description" content="README.md Solutions | Feel free to fork it on github and make contributions, A reminder that if you're ever in need a geek helper...👋" key="desc"/>
                 <meta property="og:url" content="https://www.mnxblog.live" />
                 <meta property="og:description" content={`README.md Solutions ${frontMatter.title} | Feel free to fork it on github and make contributions.`} />
