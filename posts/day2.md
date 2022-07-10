@@ -43,9 +43,9 @@ Now To set up graphics.h in vs code:
 
 ## files
 
-- [Graphics](./graphics.h)
-- [Winbgim](./winbgim.h)
-- [libbgi](./libbgi.a)
+- [Graphics](https://github.com/ullaskunder3/Solution-to-graphics.h/blob/main/graphics.h)
+- [Winbgim](https://github.com/ullaskunder3/Solution-to-graphics.h/blob/main/winbgim.h)
+- [libbgi](https://github.com/ullaskunder3/Solution-to-graphics.h/blob/main/libbgi.a)
 
 ## Setup
 
@@ -72,6 +72,7 @@ Open Vs Code Smart way:
    cd turbographics
    code .
 ```
+
 if you are using template with task and c_cpp_properties json file then you directory should look like this:
 
 - All you code should o inside `src` and the task.json will build the .exe in `build` folder
@@ -117,11 +118,12 @@ Running the file using command in termainl:
 
     //after u'll get example.exe run using command: .\example
 ```
+
 ![image](https://user-images.githubusercontent.com/66258652/133919476-09225201-68a4-46b8-9220-1a6244a0488c.png)
 
- OR => 👌🤩
- 
- - Just `Ctrl+Shift+B` to run the build task you will get the executable file in build folder
+OR => 👌🤩
+
+- Just `Ctrl+Shift+B` to run the build task you will get the executable file in build folder
 
 ![graphics example2](https://user-images.githubusercontent.com/66258652/133919626-3cd671e5-36e4-4315-b4bf-951563fc6913.png)
 ![graphics example3](https://user-images.githubusercontent.com/66258652/133919648-c5745fd9-4fb4-49f5-9ca2-2d7b5f54fd85.png)
