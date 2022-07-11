@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <g font-family="Roboto" font-weight="400" word-spacing="0">
+    <path d="M311 302h47V122h82v180h47l-88 88z" aria-label="M⬇" font-size="333.3" letter-spacing="-55"/>
+    <g style="line-height:1.25;-inkscape-font-specification:Roboto">
+      <path d="m105 122 56 176 57-176h80v253h-61v-59l6-121-61 180h-41L80 195l6 121v59H25V122z" aria-label="M" font-size="333.3" font-weight="900" letter-spacing="0" style="-inkscape-font-specification:'Roboto Heavy'"/>
+    </g>
+  </g>
+</svg>
