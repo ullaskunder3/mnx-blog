@@ -339,7 +339,7 @@ In short, a key should be:
 
 ## Task 1
 
-![component Project](project/task1.png)
+![component Project](https://github.com/ullaskunder3/react/blob/main/project/task1.png?raw=true)
 
 - [ ] Creating App component inside index.js
 
