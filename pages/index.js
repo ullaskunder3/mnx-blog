@@ -5,6 +5,7 @@ import matter from 'gray-matter';
 import Link from 'next/link';
 import { Footer } from '../components/Footer';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 export async function getStaticProps() {
   const files = fs.readdirSync('posts');
@@ -17,17 +18,29 @@ export async function getStaticProps() {
       slug, frontMatter
     }
   })
-  const response = await fetch('https://api.countapi.xyz/update/ullaskunder3/profileView/?amount=1')
-  const data = await response.json()
+  // const response = await fetch('https://api.countapi.xyz/update/ullaskunder3/profileView/?amount=1')
+  // const data = await response.json()
+
   return {
     props: {
       posts,
-      data
+      // data
     }
   }
 }
 
-export default function Home({ posts, data }) {
+export default function Home({ posts }) {
+
+  const [data, setData] = useState(null)
+
+  useEffect(() => {
+    fetch('https://api.countapi.xyz/update/ullaskunder3/profileView/?amount=1')
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data)
+      })
+  }, [])
+
   return (
     <div className={ styles.container }>
       <Head>
@@ -69,7 +82,7 @@ export default function Home({ posts, data }) {
                 <div className={ styles.childWrapper }>
                   <p>View Count</p>
                   <p className={ styles.viewCount } id="viewCounter">
-                    { data.value ? data.value : "calculating..." }
+                    { data ? data.value : "calculating..." }
                   </p>
                 </div>
               </div>
