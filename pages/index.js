@@ -27,24 +27,25 @@ export default function Home({ posts }) {
   return (
     <div className={ styles.container }>
       <Head>
-        <title>MnxBlog | ReadMe Solutions</title>
+        <title>MnxBlog | ReadMe Solutions - minimalist NextJS readme blog</title>
         <meta charSet="utf-8" />
-        <meta name="description" content="README.md Solutions | Feel free to fork it on github and make contributions, A reminder that if you're ever in need a geek helper...👋" key="desc"/>
+        <meta name="description" content="README.md Solutions | nextjs minimalist readme blog, Feel free to fork it on github and make contributions...👋" key="desc"/>
+        <meta name="keyword" content="README, NextJS, TailwindCSS, CSS3, Markdown, Nodejs, Vercel, Minimalist"/>
         <meta property="og:url" content="https://www.mnxblog.live" />
-        <meta property="og:description" content="README.md Solutions | Feel free to fork it on github and make contributions, A reminder that if you're ever in need a geek helper...👋" />
+        <meta property="og:description" content="README.md Solutions | nextjs minimalist readme blog, Feel free to fork it on github and make contributions...👋" />
         <meta property="og:title" content="ReadMe files with guide to your problem" />
         <meta property="og:image" content="https://www.mnxblog.live/mnxblog.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@mnxblog" />
-        <meta name="twitter:description" content="README.md Solutions | Feel free to fork it on github and make contributions, A reminder that if you're ever in need a geek helper...👋" />
+        <meta name="twitter:description" content="README.md Solutions | nextjs minimalist readme blog, Feel free to fork it on github and make contributions...👋" />
         <meta name="twitter:title" content="ReadMe files with guide to your problem" />
         <meta name="twitter:creator" content="@ullaskunder3" />
         <meta name="twitter:image" content="https://www.mnxblog.live/mnxblog.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
         <meta name="keywords" content="ReadMe.md, HTML, CSS, NextJS, TailWindCSS, Nodejs" />
         <meta name="author" content="Ullas Kunder" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/ico" href="/favicon.ico" />
       </Head>
       <main className='w-full font-sans leading-normal tracking-normal my-0 mx-auto'>
         <div className='text-center select-none'>

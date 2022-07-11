@@ -32,9 +32,10 @@ function BlogPage({ frontMatter, content }) {
     return (
         <div className="bg-white rounded-xl md:max-w-5xl mt-5 my-0 mx-auto">
             <Head>
-                <title>MnxBlog | ReadMe Solutions</title>
+                <title>ReadMe Solution | ${frontMatter.title}</title>
                 <meta charSet="utf-8" />
-                <meta name="description" content="README.md Solutions | Feel free to fork it on github and make contributions, A reminder that if you're ever in need a geek helper...👋" key="desc"/>
+                <meta name="description" content="README.md Solutions | nextjs minimalist readme blog, Feel free to fork it on github and make contributions...👋" key="desc"/>
+                <meta name="keyword" content="README, NextJS, TailwindCSS, CSS3, Markdown, Nodejs, Vercel, Minimalist"/>
                 <meta property="og:url" content="https://www.mnxblog.live" />
                 <meta property="og:description" content={`README.md Solutions ${frontMatter.title} | Feel free to fork it on github and make contributions.`} />
                 <meta property="og:title" content={`ReadMe files for ${frontMatter.title}`} />
@@ -42,9 +43,10 @@ function BlogPage({ frontMatter, content }) {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
                 <meta name="keywords" content="ReadMe.md, HTML, CSS, NextJS, TailWindCSS, Nodejs" />
                 <meta name="author" content="Ullas Kunder" />
+                <link rel="icon" type="image/ico" href="/favicon.ico" />
             </Head>
             <Link href="/" className=''>
-                <a className='bg-transparent hover:bg-green-500 text-black-700 font-semibold hover:text-white py-2 m-5 px-10 border border-500 hover:border-transparent'>Back</a>
+                <a className='bg-transparent hover:bg-green-500 text-black-700 font-semibold hover:text-white py-2 m-5 px-10 border border-500 hover:border-transparent' title='Home'>Back</a>
             </Link>
             <div className="md:flex mb-10">
                 <div className="p-8">
