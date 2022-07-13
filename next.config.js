@@ -6,8 +6,6 @@ const nextConfig = {
     defaultLocale: 'en-US'
   },
   productionBrowserSourceMaps: true,
-  NEXT_PUBLIC_GOOGLE_TAGMANAGER: process.env.NEXT_PUBLIC_GOOGLE_TAGMANAGER,
-  NEXT_PUBLIC_GOOGLE_ANALYTICS: process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS
 }
 
 module.exports = nextConfig
