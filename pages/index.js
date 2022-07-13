@@ -1,10 +1,10 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import { Footer } from '../components/Footer';
+import Link from 'next/link';
+import Head from 'next/head'
+import Image from 'next/image';
 import fs from 'fs'
 import matter from 'gray-matter';
-import Link from 'next/link';
-import { Footer } from '../components/Footer';
-import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 export async function getStaticProps() {
@@ -18,13 +18,9 @@ export async function getStaticProps() {
       slug, frontMatter
     }
   })
-  // const response = await fetch('https://api.countapi.xyz/update/ullaskunder3/profileView/?amount=1')
-  // const data = await response.json()
-
   return {
     props: {
       posts,
-      // data
     }
   }
 }
@@ -89,7 +85,7 @@ export default function Home({ posts }) {
               <div className={ styles.childContainer }>
                 <div className={ styles.childWrapper }>
                   README is Awesome
-                  <Image src="/markdown.svg" alt="markdown" width={ 100 } height={ 100 } />
+                  <Image src="/markdown.svg" alt="markdown" width="100" height="100" />
                 </div>
                 <div className={ styles.childWrapper }>
                   Write your own readme Solution (feature is in progress)

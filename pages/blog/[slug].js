@@ -1,9 +1,9 @@
+import {Footer} from '../../components/Footer';
 import React from 'react'
 import fs from 'fs'
 import matter from 'gray-matter';
 import md from 'markdown-it';
 import Link from 'next/link';
-import {Footer} from '../../components/Footer';
 import Head from 'next/head';
 
 export async function getStaticPaths() {
