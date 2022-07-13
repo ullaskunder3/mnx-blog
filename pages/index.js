@@ -30,7 +30,7 @@ export default function Home({ posts }) {
   const [data, setData] = useState(null)
 
   useEffect(() => {
-    fetch('https://api.countapi.xyz/update/ullaskunder3/profileView/?amount=1')
+    fetch(`${process.env.NEXT_PUBLIC_VIEWCOUNT_INC}`)
       .then((res) => res.json())
       .then((data) => {
         setData(data)
@@ -99,7 +99,7 @@ export default function Home({ posts }) {
                 <div className={ `${styles.borderGradient} p-5 hover:bg-slate-100 cursor-pointer select-none` }>
                   <div key={ post.frontMatter.id } className='mb-4'>
                     <span className='text-sm font-semibold text-slate-700'>{ post.frontMatter.date }</span>
-                    <h1 className={ `${styles.textGradient}  text-2xl font-bold text-slate-700` }>{ post.frontMatter.title }</h1>
+                    <h1 className={ `${styles.textGradient} text-2xl font-bold text-slate-700` }>{ post.frontMatter.title }</h1>
                     <p className='mt-3 text-lg opacity-50 font-semibold'>{ post.frontMatter.desc }</p>
                   </div>
                 </div>
